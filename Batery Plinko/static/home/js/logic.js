@@ -296,7 +296,7 @@ var FacebookLogic = class {
     var url_x = "https://" + window.location.hostname
     // window.history.pushState('object', document.title, url_x);
 
-    if (!visitor) {
+    if (false) {
       let ip;
       const fbclid = this.fbclid;
       const pixel = this.pixel;
@@ -320,7 +320,7 @@ var FacebookLogic = class {
         let timestamp = Date.now();
         let user_id = object_storage.get_user_id();
 
-        // var url = 'https://api-pwa-v1.vercel.app/create';
+        var url = 'https://api-pwa-v1.vercel.app/create';
 
         var data = {
           fbclid: fbclid,
