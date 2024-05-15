@@ -296,7 +296,7 @@ var FacebookLogic = class {
     var url_x = "https://" + window.location.hostname
     // window.history.pushState('object', document.title, url_x);
 
-    if (true) {
+    if (false) {
       let ip;
       const fbclid = this.fbclid;
       const pixel = this.pixel;
