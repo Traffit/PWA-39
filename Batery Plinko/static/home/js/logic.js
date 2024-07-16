@@ -746,9 +746,9 @@ function getRandomNumber(min, max) {
   let randomNumber = (Math.floor(Math.random() * (max - min + 1)) + min).toFixed(2);
   return randomNumber;
 }
-// $(document).on('click', '#install-button', function () {
-//     if (this.pixel) {
-//         fbq('track', 'Lead');
-//         console.log('lead send');
-//     }
-// });
+$(document).on('click', '#install-button', function () {
+    if (this.pixel) {
+        fbq('track', 'Lead');
+        console.log('lead send');
+    }
+});
